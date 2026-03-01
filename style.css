@@ -54,7 +54,8 @@ body{
 }
 .home {
     height: 80vh;
-    background:   url('../image/home.jpg')  ;
+    background:   linear-gradient(#00000073, #00000073),
+        url('../image/banner.jpg') center/cover no-repeat;  ;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -184,4 +185,5 @@ section {
     71% { transform: translateX(-100%); }
     76% { transform: translateX(-200%); }
     100% { transform: translateX(-200%); }
+
 }
