@@ -53,15 +53,14 @@ body{
     opacity: 1;
 }
 .home {
-    height: 80vh;
-    background:   linear-gradient(#00000073, #00000073),
-        url('../image/banner.jpg') center/cover no-repeat;  ;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+   height: 80vh;
+   background:   url('../image/home.jpg');
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
 }
 .home-text h1 {
     font-size: 80px;
@@ -187,3 +186,4 @@ section {
     100% { transform: translateX(-200%); }
 
 }
+
